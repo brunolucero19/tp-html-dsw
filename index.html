@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP HTML Bruno Lucero 3k9</title>
+</head>
+<body>
+    <header>Trabajo Práctico HTML - Bruno Lucero 3k9.</header>
+    <main>
+        <section id="estructura">
+            <h1>1. Estructura Básica del Documento HTML </h1>
+        <p>Este documento HTML tiene una estructura básica que incluye la declaración de DOCTYPE, etiquetas de metadatos y un título.</p>
+        </section>
+        <section>
+            <h1>2. Encabezados y Propiedades del Texto </h1>
+            <h2 style="font-style: italic;">Este es un texto en cursiva.</h1>
+            <h3 style="font-weight: 800;">Este es un texto en negrita.</h4>
+            <h4 style="text-decoration: underline;">Este es un texto subrayado.</h5>
+            <h5 style="background-color: yellow;">Este es un texto resaltado.</h6>
+            <h6> <span style="font-style: italic;">Este es un texto</span> <span style="text-decoration: underline;">con estilos</span> <span style="background-color: yellow;">combinados.</span></h6>
+        </section>
+        <section>
+            <h1>3. Divisiones y Agrupación de Contenido</h1>
+            <div>
+                <h4>Sección 1</h4>
+                <p>Contenido de la primera sección agrupada en un div.</p>
+            </div>
+            <div>
+                <h4>Sección 2</h4>
+                <p>Contenido de la segunda sección agrupada en un div.</p>
+            </div>
+        </section>
+        <section>
+            <h1>4. Enlaces y Listas</h1>
+            <p>Visita nuestro <a href="https://www.systeam.online/" target="_blank">sitio web</a> para más información.</p>
+            <p>Enlaces internos:</p>
+            <nav>
+                <ul>
+                    <li><a href="#estructura">Ir a Estructura</a></li>
+                    <li><a href="#multimedia">Ir a Multimedia</a></li>
+                    <li><a href="#form">Ir a Formulario</a></li>
+                </ul>
+            </nav>
+            <div>
+                <p>Lista desordenada:</p>
+                <ul>
+                    <li>Primer ítem de una lista desordenada</li>
+                    <li>Segundo ítem de una lista desordenada</li>
+                </ul>
+            </div>
+            <div>
+                <p>Lista ordenada:</p>
+                <ol>
+                    <li>Primer ítem de una lista ordenada</li>
+                    <li>Segundo ítem de una lista ordenada</li>
+                </ol>
+            </div>
+        </section>
+        <section id="multimedia">
+            <h1>5. Elementos Multimedia</h1>
+            <img src="https://am550laprimera-s3.cdn.net.ar/s3i233/2023/11/am550laprimera/images/38/69/386937_c5f47fd97aa9f090cd2f6bd4219489d389b85f944790639e8d6d5096b1909082/lg.webp" alt="Imagen de La Bombonera" width="200px" height="120px">
+            <video src="video/videotp.mp4" width="250px" height="300px" controls></video>
+            <audio src="audio/rhcp-californication.mp3" controls></audio>
+        </section>
+        <section>
+            <h1>6. Tablas</h1>
+            <table border="1">
+                <thead>
+                    <th>Columna 1</th>
+                    <th>Columna 2</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Dato 1</td>
+                        <td>Dato 2</td>
+                    </tr>
+                    <tr>
+                        <td>Dato 3</td>
+                        <td>Dato 4</td>
+                    </tr>
+                    <tr>
+                        <td>Dato 5</td>
+                        <td>Dato 6</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="form">
+            <h1>7. Formularios</h1>
+            <form >
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+                <button type="submit" style="cursor: pointer;">Enviar</button>
+            </form>
+        </section>
+        <section>
+            <h1>8. Semántica en HTML</h1>
+            <article>
+                <h2>Artículo 1</h2>
+                <p>Contenido del artículo 1.</p>
+            </article>
+            <aside>
+                <h2>Barra Lateral</h2>
+                <p>Contenido de la barra lateral.</p>
+            </aside>
+            <p>Las demás etiquetas semánticas como header, main, section, footer y nav, pueden verse en el código.</p>
+        </section>
+    </main>
+    <footer>Este es el footer de la página.</footer>
+</body>
+</html>
